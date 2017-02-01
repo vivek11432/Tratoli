@@ -1,0 +1,50 @@
+﻿body {
+}
+
+
+.BlackColor {
+    color:black;
+}
+
+.left{
+  display: block;
+  float:left;
+  width: auto;
+}
+
+.right{
+  display: block;
+  float:right;
+  width: auto;
+}
+
+.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a.active {
+    color: #10B2BF;
+}
+.tabs.tabs-transparent {
+    background-color: white;
+}
+hr {
+  height: 2px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #B4B4B4 inset;
+}
+#content{
+         width: 100%;
+         display: block;
+         height: auto;
+     }
+     #content > img{
+        float: left; width: 100px;
+        height: 100px;
+        margin: 5px 8px;
+     }
+
+.material-icons {
+    font-size: 14px;
+}
